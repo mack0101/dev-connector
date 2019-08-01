@@ -27,6 +27,12 @@ const Dashboard = ({
       </p>
       {profile !== null ? (
         <Fragment>
+          <Link
+            to={`/profile/${profile.user._id}`}
+            className='btn btn-primary my-2'
+          >
+            View Profile
+          </Link>
           <DashboardActions />
           <Experience experience={profile.experience} />
           <Education education={profile.education} />

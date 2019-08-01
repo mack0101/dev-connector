@@ -8,7 +8,7 @@ import ProfileTop from './ProfileTop';
 import ProfileAbout from './ProfileAbout';
 import ProfileExperience from './ProfileExperience';
 import ProfileEducation from './ProfileEducation';
-import Moment from 'react-moment';
+import ProfileGithub from './ProfileGithub';
 
 const Profile = ({
   getProfileById,
@@ -69,6 +69,10 @@ const Profile = ({
                 <h4>No Education Credentials</h4>
               )}
             </div>
+
+            {profile.githubusername && (
+              <ProfileGithub username={profile.githubusername} />
+            )}
           </div>
         </Fragment>
       )}
