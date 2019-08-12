@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://mac:mac@dev-connector-4txe5.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "thingsandstuff",
+  "githubClientId": "9979d3351fffbd2b0015",
+  "githubSecret": "8728b0adc5c70339a3449e05433d7611e62be86a"
+}
